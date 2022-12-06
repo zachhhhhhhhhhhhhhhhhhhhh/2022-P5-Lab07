@@ -5,9 +5,11 @@ public class MountainRange extends Applet{
     public void paint(Graphics g){
 
 
+
         //background
         Background.drawGround(g);
         Background.drawSky(g);
+
 
 
         //mountains
@@ -15,12 +17,12 @@ public class MountainRange extends Applet{
         Mountains.drawsnow(g);
         Mountains.drawFlag(g);
         Mountains.drawSun(g);
-
-        //fields
+//fields
         Fields.drawTree(g);
         Fields.drawBushes(g);
         Fields.drawHouse(g);
         Fields.drawLake(g);
+
     }
 
 
