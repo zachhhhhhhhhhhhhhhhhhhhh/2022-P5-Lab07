@@ -33,8 +33,17 @@ public class Mountains extends Applet{
 
 
     public static void drawFlag(Graphics g){
+        int red = 158;
+        int green = 157;
+        int blue = 157;
 
+        g.setColor(new Color(red,green,blue));
+        g.fillRect(735, 40, 10,70);
 
+        int r2 = 255;
+        int g2 = 255;
+        int b2 = 0;
+        g.fillOval(725, 20,30,30);
 
     }
 

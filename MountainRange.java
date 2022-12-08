@@ -13,9 +13,9 @@ public class MountainRange extends Applet{
 
 
         //mountains
+        Mountains.drawFlag(g);
         Mountains.drawPeaks(g);
         Mountains.drawsnow(g);
-        Mountains.drawFlag(g);
         Mountains.drawSun(g);
 //fields
         Fields.drawTree(g);
